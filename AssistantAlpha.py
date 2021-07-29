@@ -261,7 +261,7 @@ def play():
                 window.update()
                 speak('what should I say')
                 content = takeCommand()
-                to = "tanaya.raikwar00@gmail.com"
+                to = "email" #enter email
                 sendemail(to, content)
                 var.set('Email has been sent!')
                 window.update()
